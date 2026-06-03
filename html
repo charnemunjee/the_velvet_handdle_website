@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+    <header>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        
+        <div class="col-md-6 offset-5" id="logo">
+            <img src="Velvet Handle Logo.png" alt="The Velvet Handle logo" class="logo"> 
+            <!--Note that the logo and slogan of was created by chatgpt-->
+        </div>
+        <br><br>
+        <!-- Install bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous">
+    </header>
+    <body>
+        <main>
+            <!-- View images of bags, their names and prices. 
+             Two bags per row. One bag per row on small screens-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 offset-2" >
+                        <img src="Bag_1.jpg" alt="Brown carrier bag" class="img-fluid">
+                        <div class="caption">Brown carrier <br> R500</div>
+                        <button type="button" class="BuyButton">Buy</button>
+
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 offset-2">
+                        <img src="Bag_2.webp" alt="Beige satchel bag" class="img-fluid">
+                        <div class="caption">Beige satchel <br> R1200</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+                </div>
+                    
+                <div class="row">
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_3.png" alt="Black Work bag" class="img-fluid">
+                        <div class="caption">Black satchel <br> R1000</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_4.jpg" alt="White satchel bag" class="img-fluid">
+                        <div class="caption">White Girlfriend satchel<br> R1500</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_5.jpg" alt="Black Rose everyday bag" class="img-fluid">
+                        <div class="caption">Black Rose <br> R2000</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_6.jpg" alt="Brown everyday" class="img-fluid">
+                        <div class="caption">Everyday shoulder bag <br> R900</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_7.jpg" alt="Brown Leather laptop bag" class="img-fluid">
+                        <div class="caption">Brown Leather laptop bag <br> R2000</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_8.jpg" alt="Cookies and Cream shoulder bag" class="img-fluid">
+                        <div class="caption">Cookies and Cream shoulder bag <br> R900</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_9.PNG" alt="Black and white traveller bag" class="img-fluid">
+                        <div class="caption">Balck and White Traveller bag <br> R1800</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_10.jpeg" alt="Pink Barbie shoulder bag" class="img-fluid">
+                        <div class="caption">Pink Barbie Tote bag <br> R1000</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_11.webp" alt="Turquoise everyday bag" class="img-fluid"">
+                        <div class="caption">Turquoise shoulder bag <br> R900</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+
+                    <div class="col-md-4 offset-2">
+                        <img src="Bag_12.jpg" alt="Zebra carrier bag" class="img-fluid">
+                        <div class="caption">Zebra carrier <br> R800</div>
+                        <button type="button" class="BuyButton">Buy</button>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer>
+            <!--Added contact us section to invite users to contact The Velvet Handle-->
+            <p> Contact us</p>
+            <p>We would love to hear from you. 
+                Please enter your contact information here</p>
+                <!--Add contact form-->
+                <div class="contact_form">
+                <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="phone number">Phone Number</label>
+                    <input type="integer" id="phone_no" name="phone_no" placeholder="Your phone number..">
+
+                    <label for="email address">Email address</label>
+                    <input type="text" id="email" name="email" placeholder="Your email address..">
+                    <br>
+                    <div class="col-md-4 offset-6">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <!--Include small company logo with contact form-->
+                    <div class="col-md-4 offset-6" id="bottom_logo">
+                        <img src="Velvet Handle Logo.png" alt="The Velvet Handle logo" width="80px" height="80px">
+                    </div>
+                </form>
+            </div>
+            <br>
+            <p>Copyright 2024 The Velvet Handle</p>
+            
+            <p>Contact us: <a href="mailto:info@thevelvethandle.com">info@thevelvethandle.com</a></p>
+            <nav>
+                <!--Add back to top button-->
+                <div class="col-md-4 offset-6">
+                    <a href="#logo">Back to top</a>
+                </div>
+            </nav>
+        </footer>
+        <!--Include bootstrap script-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+        crossorigin="anonymous"></script>
+    </body>
+</html>
